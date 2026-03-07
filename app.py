@@ -2,7 +2,7 @@ import os
 import streamlit as st
 import time
 
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores.faiss import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 
