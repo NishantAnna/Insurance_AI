@@ -1,13 +1,26 @@
+---
+
+title: Insurance AI Assistant
+emoji: 🤖
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: "1.32.2"
+python_version: "3.10"
+app_file: app.py
+pinned: false
+-------------
+
 # 🤖 Insurance AI Assistant
 
 An AI chatbot that answers questions about **insurance policies, claims, and coverage** using **Retrieval Augmented Generation (RAG)**.
 
-##  Features
+## 🚀 Features
 
-* Chatbot for insurance-related queries
-* Uses **LangChain + FAISS** for document retrieval
-* **Groq LLM (Llama 3)** for fast responses
-* Built with **Streamlit**
+* Insurance question answering
+* RAG pipeline with FAISS
+* Fast responses using Groq LLM
+* Built with Streamlit
 
 ## 🛠 Tech Stack
 
@@ -17,16 +30,6 @@ An AI chatbot that answers questions about **insurance policies, claims, and cov
 * FAISS
 * HuggingFace Embeddings
 * Groq API
-
-## 📂 Project Structure
-
-```
-insurance-ai-chatbot/
-│
-├── app.py
-├── requirements.txt
-└── insurance_vector_db/
-```
 
 ## ▶️ Run Locally
 
@@ -41,15 +44,3 @@ Run the app:
 ```
 streamlit run app.py
 ```
-
-##  API Key
-
-Add your Groq API key:
-
-```
-GROQ_API_KEY="your_api_key"
-```
-
-##  Author
-
-Nishant
